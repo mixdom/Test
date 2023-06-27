@@ -18,15 +18,7 @@ search_engine_exclude: true
 
 ![CSS Pulsing Button](:CSS_Pulsing_Button.png){:data-align="center"}
 
-tes
-
-> CSS
-
-### > `CSS`
-
-> ### `CSS`
-
-### > CSS
+> **CSS**
 
 ```python
 .bg,
@@ -81,3 +73,77 @@ tes
 }
 ```
 
+> **HTML**
+
+```python
+<div class="cont">
+<div class="bg">
+</div>
+<div class="oibutton">
+<a href="#url" target="_blank"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></button>
+</div>
+</div>
+```
+
+> **Result**
+
+<style>
+.bg,
+.oibutton {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg {
+  animation: pulse 1.2s ease infinite;
+  background: #ff3466;
+}
+
+.oibutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 99;
+  border: none;
+  background: #ff3466;
+  background-size: 18px;
+  cursor: pointer;
+  outline: none;
+}
+
+.oibutton a {
+  position: absolute;
+  color: #FFF;
+  font-size: 17px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+</style>
+
+<div class="cont">
+<div class="bg">
+</div>
+<div class="oibutton">
+<a href="#url" target="_blank"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></button>
+</div>
+</div>
