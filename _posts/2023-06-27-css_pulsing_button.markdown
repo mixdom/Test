@@ -5,7 +5,7 @@ author: Mixdom
 category: code 
 tags: [button, css, html]
 img: ":CSS_Pulsing_Button.png"
-comments_disable: false
+comments_disable: true
 date: 2023-06-27 10:04:30 +0900
 meta_modify_date: 2023-06-27 10:04:30 +0900
 #meta_description: ""
@@ -15,5 +15,7 @@ on_site_search_exclude: true
 search_engine_exclude: true
 #published: false
 ---
+
+![CSS Pulsing Button](:CSS_Pulsing_Button.png){:data-align="center"}
 
 test
