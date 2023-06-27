@@ -18,6 +18,7 @@ search_engine_exclude: true
 
 ![CSS Pulsing Button](:CSS_Pulsing_Button.png){:data-align="center"}
 
+<br/>
 > **CSS**
 
 ```python
@@ -73,6 +74,7 @@ search_engine_exclude: true
 }
 ```
 
+<br/>
 > **HTML**
 
 ```python
@@ -85,6 +87,7 @@ search_engine_exclude: true
 </div>
 ```
 
+<br/>
 > **Result**
 
 <style>
@@ -139,6 +142,8 @@ search_engine_exclude: true
   }
 }
 </style>
+
+<br/>
 
 <div class="cont">
 <div class="bg">
