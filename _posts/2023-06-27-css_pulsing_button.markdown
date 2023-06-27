@@ -80,7 +80,7 @@ search_engine_exclude: true
 <div class="bg">
 </div>
 <div class="oibutton">
-<a href="#url" target="_blank"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></button>
+<a href="#url" target="_blank"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
 </div>
 ```
@@ -144,6 +144,6 @@ search_engine_exclude: true
 <div class="bg">
 </div>
 <div class="oibutton">
-<a href="#url" target="_blank"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></button>
+<a href="#url" target="_blank"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
 </div>
