@@ -6,8 +6,8 @@ category: code
 tags: [button, css, html]
 img: ":Pastel_Button.png"
 comments_disable: true
-date: 2023-06-27 10:04:30 +0900
-meta_modify_date: 2023-06-27 10:04:30 +0900
+date: 2023-06-28 10:04:30 +0900
+meta_modify_date: 2023-06-28 10:04:30 +0900
 #meta_description: ""
 image_viewer_on: true
 image_lazy_loader_on: true
