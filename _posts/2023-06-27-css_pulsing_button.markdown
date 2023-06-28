@@ -17,8 +17,9 @@ search_engine_exclude: true
 ---
 
 ![CSS Pulsing Button](:CSS_Pulsing_Button.png){:data-align="center"}
+
 ***
-<br/>
+
 > **CSS**
 
 ```python
