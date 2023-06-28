@@ -96,18 +96,18 @@ search_engine_exclude: true
   position: absolute;
   width: 50px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 100%
 }
 
 .cont {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center
 }
 
 .bg {
   animation: pulse 1.2s ease infinite;
-  background: #ff3466;
+  background: #ff3466
 }
 
 .oibutton {
@@ -120,25 +120,25 @@ search_engine_exclude: true
   background: #ff3466;
   background-size: 18px;
   cursor: pointer;
-  outline: none;
+  outline: none
 }
 
 .oibutton a {
   position: absolute;
   color: #FFF;
-  font-size: 17px;
+  font-size: 17px
 }
 
 @keyframes pulse {
   0% {
-    transform: scale(1, 1);
+    transform: scale(1, 1)
   }
   50% {
-    opacity: 0.3;
+    opacity: 0.3
   }
   100% {
     transform: scale(1.5);
-    opacity: 0;
+    opacity: 0
   }
 }
 </style>
