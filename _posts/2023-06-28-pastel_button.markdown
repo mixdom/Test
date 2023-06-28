@@ -5,7 +5,7 @@ author: Mixdom
 category: code 
 tags: [button, css, html]
 img: ":Pastel_Button.png"
-comments_disable: true
+comments_disable: false
 date: 2023-06-28 10:04:30 +0900
 meta_modify_date: 2023-06-28 10:04:30 +0900
 meta_description: "Tutorial Blog: Cara Membuat Hover Effect with Pseudo-element"
