@@ -22,6 +22,7 @@ search_engine_exclude: true
 
 ### Hover Effect with Pseudo-element
 
+<br/>
 > **CSS**
 
 ```python
