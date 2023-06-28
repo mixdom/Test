@@ -11,8 +11,8 @@ meta_modify_date: 2023-06-27 10:04:30 +0900
 meta_description: "Tutorial Blog: Cara Membuat CSS Pulsing Button"
 image_viewer_on: true
 image_lazy_loader_on: true
-on_site_search_exclude: true
-search_engine_exclude: true
+#on_site_search_exclude: true
+#search_engine_exclude: true
 #published: false
 ---
 
