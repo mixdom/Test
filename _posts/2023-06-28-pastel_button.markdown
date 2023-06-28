@@ -8,7 +8,7 @@ img: ":Pastel_Button.png"
 comments_disable: true
 date: 2023-06-28 10:04:30 +0900
 meta_modify_date: 2023-06-28 10:04:30 +0900
-#meta_description: ""
+meta_description: "Tutorial Blog: Cara Membuat Hover Effect with Pseudo-element"
 image_viewer_on: true
 image_lazy_loader_on: true
 on_site_search_exclude: true
