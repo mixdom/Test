@@ -17,7 +17,9 @@ search_engine_exclude: true
 ---
 
 ![Pastel Button](:Pastel_Button.png){:data-align="center"}
+
 ***
+
 ### Hover Effect with Pseudo-element
 
 > **CSS**
