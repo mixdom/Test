@@ -16,7 +16,7 @@ image_lazy_loader_on: true
 #published: false
 ---
 
-![Pastel Button](:CSS_Button_with_Bubbles.png){:data-align="center"}
+![CSS Button with Bubbles](:CSS_Button_with_Bubbles.png){:data-align="center"}
 
 ***
 
