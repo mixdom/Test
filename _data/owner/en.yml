@@ -5,7 +5,7 @@
 brand: "Mixdom"
 
 # text below the brand name
-brand_sub_text: "$site_sample"
+brand_sub_text: "For ya!"
 
 # used for seo meta post author (if it's not defined in post)
 name: "Mixdom"
