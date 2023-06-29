@@ -26,7 +26,7 @@ image_lazy_loader_on: true
 .bodi {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 .btn,
 .btn2 {
@@ -40,7 +40,7 @@ image_lazy_loader_on: true
   background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
   background-size: 600%;
   -webkit-animation: anime 16s linear infinite;
-          animation: anime 16s linear infinite
+          animation: anime 16s linear infinite;
 }
 .btn2 {
   position: absolute;
@@ -48,28 +48,28 @@ image_lazy_loader_on: true
   z-index: -1;
   -webkit-filter: blur(30px);
           filter: blur(30px);
-  opacity: 0.8
+  opacity: 0.8;
 }
 @-webkit-keyframes anime {
   0% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 50%
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
 }
 @keyframes anime {
   0% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 50%
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
 }
 ```
@@ -96,7 +96,7 @@ Gradient Button
 .bodi {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 .btn,
 .btn2 {
@@ -110,7 +110,7 @@ Gradient Button
   background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
   background-size: 600%;
   -webkit-animation: anime 16s linear infinite;
-          animation: anime 16s linear infinite
+          animation: anime 16s linear infinite;
 }
 .btn2 {
   position: absolute;
@@ -118,28 +118,28 @@ Gradient Button
   z-index: -1;
   -webkit-filter: blur(30px);
           filter: blur(30px);
-  opacity: 0.8
+  opacity: 0.8;
 }
 @-webkit-keyframes anime {
   0% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 50%
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
 }
 @keyframes anime {
   0% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 50%
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
   }
 </style>
