@@ -28,8 +28,8 @@ image_lazy_loader_on: true
   align-items: center;
   justify-content: center;
 }
-.btn,
-.btn2 {
+.bttn,
+.bttn2 {
   width: 300px;
   height: 100px;
   font-size: 30px;
@@ -42,7 +42,7 @@ image_lazy_loader_on: true
   -webkit-animation: anime 16s linear infinite;
           animation: anime 16s linear infinite;
 }
-.btn2 {
+.bttn2 {
   position: absolute;
   margin-top: -70px;
   z-index: -1;
@@ -80,9 +80,9 @@ image_lazy_loader_on: true
 ```python
 <div class='bodi'>
 <a href='#url'>
-<div class="btn">
+<div class="bttn">
 Gradient Button
-<div class="btn2">
+<div class="bttn2">
 </div>
 </div>
 </a>
@@ -98,8 +98,8 @@ Gradient Button
   align-items: center;
   justify-content: center;
 }
-.btn,
-.btn2 {
+.bttn,
+.bttn2 {
   width: 300px;
   height: 100px;
   font-size: 30px;
@@ -112,7 +112,7 @@ Gradient Button
   -webkit-animation: anime 16s linear infinite;
           animation: anime 16s linear infinite;
 }
-.btn2 {
+.bttn2 {
   position: absolute;
   margin-top: -70px;
   z-index: -1;
@@ -146,9 +146,9 @@ Gradient Button
 
 <div class='bodi'>
 <a href='#url'>
-<div class="btn">
+<div class="bttn">
 Gradient Button
-<div class="btn2">
+<div class="bttn2">
 </div>
 </div>
 </a>
