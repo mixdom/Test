@@ -16,7 +16,7 @@ image_lazy_loader_on: true
 #published: false
 ---
 
-![Pastel Button](:Animated_Gradient_Button-Pure_CSS.png){:data-align="center"}
+![Animated Gradient Button (Pure CSS)](:Animated_Gradient_Button-Pure_CSS.png){:data-align="center"}
 
 ***
 
