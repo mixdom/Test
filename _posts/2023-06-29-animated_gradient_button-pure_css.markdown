@@ -93,6 +93,7 @@ Gradient Button
 > **Result**
 
 <style>
+.body {
   display: flex;
   align-items: center;
   justify-content: center
