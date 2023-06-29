@@ -20,7 +20,6 @@ image_lazy_loader_on: true
 
 ***
 
-<br/>
 > **CSS**
 
 ```python
