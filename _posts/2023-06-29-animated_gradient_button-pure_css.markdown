@@ -23,7 +23,7 @@ image_lazy_loader_on: true
 > **CSS**
 
 ```python
-.body {
+.bodi {
   display: flex;
   align-items: center;
   justify-content: center
@@ -78,7 +78,7 @@ image_lazy_loader_on: true
 > **HTML**
 
 ```python
-<div class='body'>
+<div class='bodi'>
 <a href='#url'>
 <div class="btn">
 Gradient Button
@@ -93,7 +93,7 @@ Gradient Button
 > **Result**
 
 <style>
-.body {
+.bodi {
   display: flex;
   align-items: center;
   justify-content: center
@@ -144,7 +144,7 @@ Gradient Button
   }
 </style>
 
-<div class='body'>
+<div class='bodi'>
 <a href='#url'>
 <div class="btn">
 Gradient Button
