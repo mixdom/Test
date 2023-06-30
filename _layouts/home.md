@@ -49,7 +49,7 @@ layout: default
       {%- include util/auto-content-post-title-rename.liquid title = page_title -%}
       {%- include multi_lng/get-localized-long-date-format.liquid date = _post.date -%}
       <a href="{{ site.baseurl }}{{ _post.url }}">{{ page_title }}
-        <span>{{ _post.date | date: out_date_format }}</span>
+        <span>•</span>
       </a>
     </li>
   {% endfor -%}
