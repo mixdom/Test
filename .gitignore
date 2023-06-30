@@ -3,7 +3,7 @@
 .*
 !.git*
 !.editorconfig
-
+j
 # jekyll Cache
 _site
 .sass-cache
