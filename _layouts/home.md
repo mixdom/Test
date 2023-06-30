@@ -1,10 +1,5 @@
 ---
-# Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
-# Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
-# Licensed under MIT
-
 layout: default
-# main page (index.html)
 ---
 {%- include multi_lng/get-pages-by-lng.liquid pages = site.posts -%}
 
@@ -47,8 +42,7 @@ layout: default
     <li>
       {%- assign page_title = _post.title -%}
       {%- include util/auto-content-post-title-rename.liquid title = page_title -%}
-      <a href="{{ site.baseurl }}{{ _post.url }}">{{ page_title }}
-      </a>
+      <a href="{{ site.baseurl }}{{ _post.url }}">{{ page_title }}</a>
     </li>
   {% endfor -%}
     <li>
