@@ -1,5 +1,5 @@
 # Configuring Git to handle line ending  https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
-n
+
 # Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
 
