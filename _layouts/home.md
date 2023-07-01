@@ -31,6 +31,7 @@ layout: default
   </div>
   <div class="home-intro-text markdown-style">
 <!--    {{ content }} -->
+    Random Post, Random Source
   </div>
 </div>
 
