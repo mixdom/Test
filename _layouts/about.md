@@ -1,17 +1,12 @@
 ---
-# Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
-# Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
-# Licensed under MIT
-
 layout: default
-# About page
 ---
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}
 <div class="multipurpose-container about-container">
   <div class="row about-main">
     <div class="col-md-3 about-img">
-      <img src="{{ page.img }}" alt="">
+      <img src="{{ page.img }}" alt="Mixdom">
     </div>
     <div class="col-md-9 about-header">
       <h1 translate="no">{{ site.data.owner[lng].brand }}</h1>
