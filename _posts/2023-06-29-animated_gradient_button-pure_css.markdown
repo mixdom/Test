@@ -1,6 +1,6 @@
 ---
 lng_pair: id_post_list
-title: "Animated Gradient Button (Pure CSS) test 1 test 2 test 3 test 4 test 5 test 6 test 7 test 8"
+title: "Animated Gradient Button (Pure CSS)"
 author: Mixdom
 category: code 
 tags: [button, css, html]
