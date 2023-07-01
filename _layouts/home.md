@@ -18,12 +18,14 @@ layout: default
     <div class="home-heading-message">
       {{ site.data.owner[lng].home.top_header_line1
         | replace: site.data.conf.main.brand_replace, site.data.owner[lng].brand
- }}
+        | replace: site.data.conf.main.greetings_replace, site.data.lang[lng].constants.greetings
+        | replace: site.data.conf.main.welcome_replace, site.data.lang[lng].constants.welcome }}
       {%- if site.data.owner[lng].home.top_header_line2 %}
         <br>
         {{ site.data.owner[lng].home.top_header_line2
           | replace: site.data.conf.main.brand_replace, site.data.owner[lng].brand
- }}
+          | replace: site.data.conf.main.greetings_replace, site.data.lang[lng].constants.greetings
+          | replace: site.data.conf.main.welcome_replace, site.data.lang[lng].constants.welcome }}
       {% endif -%}
     </div>
   </div>
@@ -40,7 +42,10 @@ layout: default
     <li>
       {%- assign page_title = _post.title -%}
       {%- include util/auto-content-post-title-rename.liquid title = page_title -%}
-      <a href="{{ site.baseurl }}{{ _post.url }}">{{ page_title }}</a>
+      {%- include multi_lng/get-localized-long-date-format.liquid date = _post.date -%}
+      <a href="{{ site.baseurl }}{{ _post.url }}">{{ page_title }}
+        <span>{{ _post.date | date: out_date_format }}</span>
+      </a>
     </li>
   {% endfor -%}
     <li>
